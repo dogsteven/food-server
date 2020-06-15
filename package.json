@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx babel src --out-dir dist",
-    "start": "node dist/app.js"
+    "start": "npx babel-node src/app.js"
   },
   "keywords": [],
   "author": "",
