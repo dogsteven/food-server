@@ -9,4 +9,4 @@ app.use(cors({ origin: true }))
 app.use(express.static('static'))
 app.use(router)
 
-app.listen(80)
+app.listen(process.env.PORT || 80)
